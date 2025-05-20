@@ -1,0 +1,36 @@
+body {
+    background-color: #faf8f8;
+}
+.main-container {
+    display: flex;
+}
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem;
+    margin-left: -20px;
+}
+.sidebar a {
+    color: #adb5bd;
+    text-decoration: none;
+}
+.sidebar a.active,
+.sidebar a:hover {
+    color: white;
+    font-weight: bold;
+}
+.news-card {
+    margin-bottom: 1rem;
+}
+.card-title a {
+    text-decoration: none;
+    color: #0d6efd;
+}
+.card-img-top {
+    object-fit: cover;
+    height: 250px; 
+}
+.BannerImage{
+    width: 100%;
+    height: auto;
+}
